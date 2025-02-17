@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Personal Portfolio</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+       <style>
+            .activities {
+                border-radius: 20px;
+                background-color: white;
+                border: 1px solid black;
+            }
+            .img-circle {
+                border-radius: 50%;
+            }
+            .center-bio {
+                position: relative;
+                top: 90px;
+            }
+            .footer {
+                color: black;
+            }
+        </style>
+    </head>
+    <body style="background-color: #a6d2e0">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <!-- Brand -->
+            <a class="navbar-brand" href="media.html">Home</a>
+            <ul class="navbar-nav">            
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  Recipes
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="recipe.html">Recipe 1</a>
+                  <a class="dropdown-item" href="recipe2.html">Recipe 2</a>
+                  <a class="dropdown-item" href="recipe3.html">Recipe 3</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Sports.html"> Sports</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Skills.html">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Activities.html">Activities</a>
+              </li>
+            </ul>
+          </nav>
+        <div class="container-fluid">
+            <div class="row jumbotron">
+                <div class="col-md-4 text-center">
+                    <img src="Images/MePhoto.jpg" alt="PhotoMe" class="img-circle" height="300px" width="200px">
+                </div>
+                <div class="col-md-8 text-center center-bio">
+                    <h1> Fiona Angelovska</h1>
+                    <p> Hi! I'm Fiona Angelovska, a freshman at Lane Tech. I am from Macedonia and I speak Macedonian. I also speak English and I am learning French and Spanish. I like being active and making hand-made gifts. My favorite subject is math and I am really good at it.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3> Sports</h3>
+                            <img src="Images/SportImage.jpg" style="width: 260px; height: 179px;" alt="SportImage" class="img-thumbnail">
+                            <p> I like playing with people and having fun. I am good at sports that I do. I practice to become better at these sports. I do volleyball, soccer, basketball, and tennis.</p>
+                            <a href="Sports.html">
+                                <button type="button" class="btn btn-primary">Learn More</button>
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>My Skills</h3>
+                            <img src="Images/Amigurumi.jpeg" alt="Crochet" class="img-thumbnail">
+                            <p> As said above, I love making hand-made gifts. So I do origami, crochet, and I make jewelry. I love making things out of nothing and making others happy.</p>
+                           <a href="Skills.html">
+                            <button type="button" class="btn btn-primary">Learn More</button>
+                           </a>
+                        </div>  
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3>Activities</h3>
+                            <img src="Images/Taekwondo.jpg" style="width: 260px; height: 179px;" alt="Taekwondo" class="img-thumbnail">
+                            <p> Outside of school I do taekwondo. I am a yellow belt and I have been to one competition so far. I'm also in the crochet club and volleyball club at Lane Tech.</p>
+                            <a href="Activities.html">
+                                <button type="button" class="btn btn-primary">Learn More</button>
+                            </a>
+                        </div>  
+                    </div>  
+                </div>
+            </div>
+        </div>
+        
+            <footer class="footer text-center bg-light">
+                <p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                        <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                    </svg> 
+                    Email: 
+                    <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">
+                        fangelovska@cps.edu
+                    </a> 
+                </p>
+            </footer>
+        
+    </body>
+</html>

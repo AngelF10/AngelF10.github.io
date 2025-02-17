@@ -1,0 +1,53 @@
+  #recipe-title {
+    background-color: rgb(78, 23, 40);
+    color: white;
+    width: 725px;
+    border-radius: 90px;
+  }
+  h3 {
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #recipe-image {
+    border-radius: 90px;
+    box-shadow: 20px 20px 20px;
+    border: 4px solid lightblue;
+    position: absolute;
+    left: 260px;
+    bottom: 10px;
+  }
+  .historyone {
+    background-color: rgb(226, 61, 111);
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+  }
+  .historytwo {
+    background-color: rgb(226, 61, 111);
+    color: white;
+    width: 1270px;
+    font-family:'Courier New', Courier, monospace;
+  }
+  .ingredients {
+    background-color: lightpink;
+    width: 190px;
+    margin: 5px;
+    border: 2px dotted lightblue;
+  }
+  .instructions {
+    background-color: violet;
+    margin: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .tip {
+    font-weight: bold;
+    font-style: italic;
+  }
+  #recipe-page {
+    background-color: lightcoral; 
+    color: white;
+  }
+  #reference {
+    background-color: orange;
+    width: 615px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
